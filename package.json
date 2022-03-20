@@ -6,11 +6,20 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "physijs": "^1.0.4",
+    "physijs-webpack": "^0.1.4",
+    "process": "^0.11.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
     "three": "^0.138.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web-worker": "^1.2.0",
+    "worker": "^0.4.0",
+    "worker-loader": "^3.0.8"
   },
   "scripts": {
     "start": "react-scripts start",

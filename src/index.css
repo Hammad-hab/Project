@@ -26,3 +26,45 @@ code {
   font-weight: bolder;
   /* background-color: grey; */
 }
+
+
+/*   var
+    scene, camera, renderer
+  var Appended = false
+  // (function () {
+  scene = new THREE.Scene();
+  camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, 2000)
+  camera.position.z += 30
+  var GrGeometry = new THREE.BoxGeometry(10,10,10)
+  var loader = new THREE.CubeTextureLoader()
+  var texture = [
+    O1, O2, O3, O4, O5, O6
+  ]
+  var Ground = new THREE.Mesh(GrGeometry, new THREE.MeshBasicMaterial({
+    envMap: loader.load(texture),
+    side: THREE.DoubleSide
+  }))
+
+    //  scene.add(Ground)
+  scene.background = loader.load(texture)
+   
+    
+    
+    renderer = new THREE.WebGLRenderer({ antialias: true })
+    renderer.setSize(window.innerWidth, window.innerHeight)
+    renderer.domElement.setAttribute('id', "canvas")
+    if (Appended === false && Appended === false) {
+    Appended = true
+    document.body.appendChild(renderer.domElement)
+    // document.getElementById('canvas').remove()
+  }
+  var controls = new OrbitControls(camera, renderer.domElement)
+  function Animation() {
+    requestAnimationFrame(Animation)
+    Ground.rotation.x += 0.01
+    Ground.rotation.y += 0.01
+    // Ground.rotation.z += 0.01
+    // camera.rotation.y += 0.0025
+    // Mater.uniforms.time.value += 0.01
+    renderer.render(scene, camera)
+  } */
